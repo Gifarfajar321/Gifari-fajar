@@ -3,6 +3,10 @@
   src: url(../Font/Rubik/Rubik-VariableFont_wght.ttf);
 }
 
+body{
+  scroll-behavior: smooth;
+}
+
 section {
   position: relative;
   height: 100vh;
