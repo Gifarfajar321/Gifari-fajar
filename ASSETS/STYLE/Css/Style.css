@@ -1,0 +1,659 @@
+@font-face {
+  font-family: "Rubik";
+  src: url(../Font/Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+.main-content {
+  height: auto;
+  position: absolute;
+  top: 13%;
+  margin: 0 40px;
+}
+
+/* Home Content */
+
+/* Navigations Bar Content */
+nav {
+  background-color: rgb(0, 66, 105);
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-collapse > ul > li {
+  margin: 5px 30px;
+}
+
+.navbar-collapse > ul > li > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font: 500 15px Rubik;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.navbar-collapse > ul > li > a > span,
+.Profil-dropdown > li > a > span {
+  font: 500 20px Rubik;
+}
+
+.navbar-collapse > ul > li > a:hover,
+.Profil-dropdown > li > a:hover {
+  transform: scale(1.1);
+}
+
+.navbar-collapse .navbar-collapse form > input,
+.navbar-collapse form > button {
+  margin-right: 30px;
+}
+
+.navbar-collapse > form > .btn-primary {
+  height: 40px;
+  background-color: #009da5;
+}
+
+.navbar-collapse > form > button > i {
+  font-size: 20px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-collapse > form > .btn-primary:focus:hover {
+  background: white;
+  color: #009da5;
+}
+
+nav > .container-fluid > .btn {
+  color: white;
+  border: none;
+}
+
+nav > .container-fluid > .btn > span > i {
+  font-size: 35px;
+}
+
+nav > .container-fluid > .navbar-toggler:active {
+  border: transparent;
+}
+
+/* Dropdown */
+.Profil-dropdown {
+  width: auto;
+  transform: translateY(6%);
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.Profil-dropdown > li > a {
+  width: 250px;
+  padding: 10px;
+  font: 500 15px Rubik;
+  color: white;
+  background-color: rgb(0, 66, 105);
+  transition: 0.4s ease-in-out;
+}
+/* End Dorodown */
+/* End Navigations Bar Content */
+
+/* Home Content */
+#HOME {
+  background: url(../Css/Background/Background\ 2.jpg) no-repeat center / cover;
+}
+
+.Home-content::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.content-home {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 40px;
+  z-index: 5;
+}
+
+.content-home header > h2 > span {
+  font: bolder 50px Rubik;
+  color: rgb(255, 255, 255);
+  display: block;
+}
+
+.content-home article > p > span {
+  display: block;
+  font: 200 17px Rubik;
+  color: rgb(255, 255, 255);
+}
+
+.content-home > .home-button a button {
+  width: 170px;
+  height: 40px;
+  background-color: #009da5;
+  font: 500 17px Rubik;
+  border-radius: 20px;
+  color: white;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+
+.content-home > .home-button:hover a button {
+  background-color: white;
+  color: #009da5;
+  border: 3px solid #009da5;
+}
+
+/* Header */
+.article-content > .main-content > .main-article-content h1,
+h1 {
+  font: bolder 40px Rubik;
+  color: #009da5;
+  margin-top: -20px;
+  margin-bottom: 5px;
+}
+
+.article-content > .main-content > .main-article-content article,
+article {
+  margin: 30px 20px;
+}
+
+/* Tentang Lp3I Content */
+.article-content
+  > .main-content
+  > .main-article-content
+  > article
+  > .article
+  > header
+  > h2 {
+  font: 450 25px Rubik;
+  color: #009da5;
+}
+
+.article-content > .main-content > .main-article-content > article p {
+  font: 100 17px Rubik;
+}
+
+.About-LP3I-content > .main-content > .img-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Sejarah Content */
+.article-content > .main-content > .article > p {
+  font: 100 35px Rubik;
+}
+
+.Sejarah-content > .main-content > .img-content {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.Sejarah-content > .main-content > .img-content > img {
+  width: 440px;
+
+  border-radius: 16px;
+}
+
+/* Visi & Misi Content */
+/* Visi Content */
+#Visi-Misi {
+  background: url(../Css/Background/background\ 3.jpg) no-repeat center/cover;
+}
+
+.content-visi-misi {
+  z-index: 2;
+}
+
+.Visi-Misi-content::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.Visi-Misi-content > .main-content > .header > header {
+  text-align: center;
+}
+
+.Visi-content > article > h3 {
+  font: 500 italic 30px Rubik;
+  color: #009da5;
+}
+
+.Visi-content > article > p {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font: bold 18px Rubik;
+  color: white;
+  text-align: justify;
+}
+
+/* Misi Content */
+.Misi-content > article > h3 {
+  font: 600 30px Rubik;
+  color: #009da5;
+}
+
+.Misi-content > article > ul li {
+  padding: 0 20px;
+  font: 400 15px Rubik;
+  color: white;
+}
+
+/* Program Pendidikan Content */
+.Program-content > .main-content > .header h1 {
+  font: bolder 50px Rubik;
+}
+
+.Program-content > .main-content > article {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.Program-content > .main-content > article > .article {
+  margin: 0px auto;
+}
+
+.Program-content > .main-content > article > .article,
+.Program-content > .main-content > article > .article > article {
+  margin: 15px 0 20px 0;
+}
+
+.Program-content > .main-content > article > .article-satu > .img,
+.Program-content > .main-content > article > .article-tiga > .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Program-content > .main-content > article > .article-satu img {
+  width: 220px;
+  position: absolute;
+  top: -100px;
+}
+
+.Program-content > .main-content > article > .article-tiga img {
+  width: 370px;
+  position: absolute;
+  bottom: 30px;
+}
+
+.Program-content > .main-content > article > .article-dua {
+  display: flex;
+  align-items: center;
+  margin-left: -200px;
+}
+
+.Program-content > .main-content > article > .article > h2 {
+  text-align: right;
+  font: bold 40px Rubik;
+  color: #009da5;
+}
+
+.Program-content > .main-content > article > .article > h3,
+.Program-content > .main-content > article > .article > article > h3 {
+  font: bolder 35px Rubik;
+  color: #009da5;
+}
+
+.Program-content > .main-content > article > .article > p,
+.Program-content > .main-content > article > .article > article > p {
+  font: 500 18px Rubik;
+}
+
+/* Pelayanan Content */
+#Pelayanan {
+  background: url(./Background/Background\ 4.jpg) no-repeat center;
+}
+.content-pelayanan {
+  z-index: 3;
+}
+
+.Pelayanan-content::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.Pelayanan-content > .main-content > article {
+  margin: 30px;
+  font: 400 18px Rubik;
+  color: white;
+}
+
+.Pelayanan-content > .main-content > .wrapper {
+  width: 200vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Pelayanan-content > .main-content > .wrapper > .content {
+  width: 28vmin;
+  height: 28vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em 0;
+  position: relative;
+}
+
+.Pelayanan-content > .main-content > .wrapper > .content > i {
+  color: #009da5;
+  font-size: 50px;
+  text-align: center;
+}
+
+.Pelayanan-content > .main-content > .wrapper > .content > .num {
+  color: white;
+  text-align: center;
+  font: 600 25px Rubik;
+}
+
+.Pelayanan-content > .main-content > .wrapper > .content > .text {
+  color: #009da5;
+  text-align: center;
+  font: 500 20px Rubik;
+}
+/* Jurusan  Content */
+#Jurusan {
+  background: url(../Css/Background/Background.jpg) no-repeat center/ cover;
+}
+
+.Jurusan-content {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.Jurusan-content > .main-content > .header {
+  text-align: center;
+}
+
+.Jurusan-content > .main-content > article {
+  color: white;
+  text-align: center;
+  font: 100 15px rubik;
+}
+/* Card Jurusam */
+.Jurusan-card {
+  margin-top: 70px;
+}
+
+.portfolio .card {
+  padding: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.card > img {
+  width: 115px;
+  padding-top: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card > .card-body h4 {
+  font: 600 16px Rubik;
+}
+
+.card > .card-body p {
+  font: 100 11px Rubik;
+  text-align: center;
+}
+
+.card > .card-body > .btn {
+  background: #009da5;
+  border: none;
+  transition: 0.5s ease;
+}
+
+/* Card Hover */
+.Jurusan-card > .container-fluid > div > .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgb(203, 197, 197);
+}
+
+.card > .card-body > .btn:hover {
+  background: white;
+  border: 1px solid #009da5;
+  color: #009da5;
+}
+
+.card > .card-body > .btn:active {
+  transform: scale(0.9);
+}
+
+/* Macam Jurusan Content */
+.Macam-Jurusan-content {
+  font: 400 17px Rubik;
+}
+
+.jurusan > .Bussines > .main-content > .img-content,
+.jurusan > .Communiaction > .main-content > .img-content {
+  width: 550px;
+  display: flex;
+  justify-content: center;
+}
+
+.jurusan > .Akuntansi > .main-content > .img-content,
+.jurusan > .Manajemen-Informatika > .main-content > .img-content {
+  width: 550px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Alumni content */
+#Alumni {
+  background: url(../Css/Background/background\ 5.jpg) no-repeat center/cover;
+}
+
+.Alumni-content::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.content-alumni {
+  z-index: 5;
+}
+
+.Alumni-content > .main-content > .main-article-content .header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Alumni-card > .container-fluid > .container {
+  margin: 30px 0px;
+}
+
+.Alumni-card > .container-fluid > .container > div > .card {
+  overflow: hidden;
+  border: 2px soldi black;
+  position: relative;
+  margin-bottom: 50px;
+  border-radius: none;
+}
+
+.Alumni-card > .container-fluid > .container > div > .card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  border-radius: none;
+  width: 300px;
+  height: 420px;
+  transform: scale(1.1);
+  z-index: 2;
+  transition: 0.5s ease;
+}
+
+.Alumni-card > .container-fluid > .container > div > .card > .card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 25%;
+  background-color: #009da5;
+  z-index: 5;
+}
+
+.Alumni-card > .container-fluid > .container > div > .card > .card-body > h4,
+.Alumni-card > .container-fluid > .container > div > .card > .card-body > p {
+  margin: 0;
+  color: white;
+}
+
+.Alumni-card > .container-fluid > .container > div > .card > .card-body > h4 {
+  font: bold 18px Rubik;
+}
+
+.Alumni-card > .container-fluid > .container > div > .card > .card-body > p {
+  font: 500 12px Rubik;
+}
+
+.Alumni-card > .container-fluid > .container > div > .card:hover img {
+  transform: scale(1);
+}
+
+/* Contact & foooter */
+.Contact-content > .main-content > article > .maps > .gmap_canvas {
+  border: 2px solid #009da5;
+}
+
+.Contact-content > .main-content > article > .contact {
+  background: url(../Css/Background/background\ 6.jpg) no-repeat center/cover;
+}
+
+.Contact-content article > .contact > .main-contact > div {
+  padding: 0 10px;
+  margin: 50px 0 0 0;
+}
+
+.Contact-content
+  > .main-content
+  > article
+  > .contact
+  > .main-contact
+  > div
+  > h5 {
+  font: 500 18px Rubik;
+  color: #009da5;
+}
+
+.Contact-content > .main-content > article > .contact > .main-contact > div > p,
+a {
+  font: 100 15px Rubik;
+  color: white;
+}
+
+.Contact-content > .main-content > article > .form-contact {
+  border: 1px solid #009da5;
+}
+
+.Contact-content > .main-content > article > .form-contact > form > h2 {
+  font: 500 30px Rubik;
+  color: #009da5;
+}
+
+.Contact-content > .main-content > article > .form-contact > form > button {
+  width: 100px;
+  background-color: #009da5;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.Contact-content
+  > .main-content
+  > article
+  > .form-contact
+  > form
+  > button:hover {
+  background-color: #fff;
+  color: #009da5;
+  border: 1px solid #009da5;
+}
+
+footer {
+  height: 70px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -25px;
+  background-color: rgb(0, 66, 105);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer > .footer-content,
+footer > ul {
+  margin: 0 20px;
+}
+
+.footer-content > a > img {
+  width: 130px;
+  height: 100px;
+  margin: 0 -30px;
+  text-decoration: none;
+}
+
+.footer-content > span {
+  font: 200 18px Rubik;
+  color: white;
+}
+
+footer > ul > li > a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  margin: 0 10px 0 20px;
+}
